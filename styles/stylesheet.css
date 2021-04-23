@@ -1,0 +1,39 @@
+body{
+  margin
+}
+
+.logo{
+  max-width: 50rem;
+}
+
+.tagLine{
+  font-size: 3vw;
+}
+
+
+
+.crop{
+  object-fit:cover;
+  width: 100%;
+  height: 15rem;
+  overflow: hidden;
+
+}
+
+.crop_big{
+  object-fit:cover;
+  width: 100%;
+  height: 32.7rem;
+  overflow: hidden;
+
+}
+
+@media only screen and (max-width: 990px) {
+
+  .crop_big{
+
+    height: 15rem;
+
+
+  }
+}
