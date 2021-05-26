@@ -1,5 +1,5 @@
 body{
-  margin
+  background-color: #F2F2F2;
 }
 
 .logo{
@@ -16,6 +16,14 @@ body{
   object-fit:cover;
   width: 100%;
   height: 16.1rem;
+  overflow: hidden;
+
+}
+
+.crop2{
+  object-fit:cover;
+  width: 100%;
+  height: 12rem;
   overflow: hidden;
 
 }
@@ -38,12 +46,40 @@ body{
 
 }
 
+.crop_feat_image{
 
-.des{
-  font-size: 1.5rem;
+  object-fit:cover;
+  width: 100%;
+  padding-top: 2.2rem;
+  height: 37.1rem;
+  overflow: hidden;
+
 }
 
-.mobile_image_btn{
+.crop_proc_item{
+  object-fit:cover;
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+
+}
+
+.sub_title{
+  font-size: 2em;
+}
+
+.skill_items{
+  font-size: 1.3em;
+}
+
+.des {
+  font-size: 1.2em;
+  text-align: justify;
+  padding-left: 1vw;
+
+}
+
+/* .mobile_image_btn{
   display: none;
 }
 
@@ -53,13 +89,38 @@ body{
 
 .process_mobile_title{
   display: none;
-}
+} */
 
 .green_border_mobile{
   border-bottom: .1rem dashed green;
-
+  /* display: none; */
   width: 5rem;
 }
+
+.green_border_title{
+  border-bottom: .1rem dashed green;
+  /* display: none; */
+  width: 15rem;
+}
+
+.port_items_des{
+  font-size: 1em;
+  font-weight: 300;
+  text-align: justify;
+  /* margin-top: 1rem;
+
+  margin-bottom: 1em; */
+  /* display: none; */
+}
+
+.port_items_des_desk{
+  font-weight: 300;
+  text-align: justify;
+  /* display: block; */
+}
+/* .port_items_img{
+  width: 40%;
+} */
 
 @media only screen and (max-width: 990px) {
 
@@ -72,33 +133,50 @@ body{
     padding-top: 0rem;
     height: 16.1rem;
 
-
   }
 
-  .des{
-    margin: 0rem 1.2rem;
-    text-align: justify;
-    font-size: 1.2rem;
-  }
-
-  .mobile_image_btn{
+  /* .mobile_image_btn{
     display: flex;
-  }
+  } */
 
-  .desktop_image_btn{
+  /* .desktop_image_btn{
     display: none;
-  }
+  } */
 
-  .process{
+  /* .process{
+    display: none;
+  } */
+
+  /* .port_items_desktop{
     display: none;
   }
 
   .process_mobile_title{
     display: inherit;
-    /* padding-bottom: .1rem; */
 
+
+  } */
+
+  .proc_titles{
+    margin-top: 1rem;
   }
 
+  /* .port_items_des{
+    display: block;
+  }
 
+  .port_items_des_desk{
+    display: none;
+  } */
 
+  /* .green_border_mobile{
+    display: flex;
+  } */
+
+}
+
+@media (min-width:990px) {
+  .port_items_des{
+    height: 5em;
+  }
 }
