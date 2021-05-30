@@ -120,11 +120,11 @@ body{
   margin-top: 3vh;
 }
 
-#documentation{
+.img-pdf{
   display: none;
 }
 
-#embed-doc{
+.embed-doc{
   display: inherit;
 }
 
@@ -154,6 +154,10 @@ body{
   border-radius:50%;
 }
 
+.mobile-prompt{
+  display: none;
+}
+
 /* start of media queries */
 
 @media only screen and (max-width: 990px) {
@@ -177,7 +181,7 @@ body{
     width: 100%;
   }
 
-  #documentation{
+  .img-pdf{
     display: inherit;
 
   }
@@ -188,7 +192,7 @@ body{
     object-fit:cover;
   }
 
-  #embed-doc{
+  .embed-doc{
     display: none;
   }
 
@@ -198,6 +202,10 @@ body{
 
   .contact_text{
     margin-top: 3rem;
+  }
+
+  .mobile-prompt{
+    display: inherit;
   }
 
 }
