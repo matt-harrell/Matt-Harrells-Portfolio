@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='shortcut icon' type='image/x-icon' href='Images/favicon.ico'/>
+    <link href="custom.css" rel="stylesheet">
+    <link href="styles/stylesheet.css" rel="stylesheet">
+    <title>Interactive Animation</title>
+  </head>
+  <body>
+
+    <div class="container header">
+
+      <div class="row">
+          <div class="col-sm">
+
+            <a href="index.html"><img src="Images/logo.svg" class="img-fluid logo mt-3" alt="matt harrell with h made with green wire"></a>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p class="mt-2 tagLine">Front End Web Developer, UI/UX Developer, Interactive Designer</p>
+        </div>
+      </div>
+
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark m-0 p-0 d-flex justify-content-end">
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+          <ul class="navbar-nav w-100 d-flex justify-content-between">
+
+            <li class="nav-item flex-fill p-0">
+              <a class="nav-link btn-dark text-center" href="index.html">Portfolio</a>
+            </li>
+
+            <li class="nav-item flex-fill">
+              <a class="nav-link btn-dark text-center" href="resume.html">Resume</a>
+            </li>
+
+            <li class="nav-item flex-fill">
+              <a class="nav-link text-center btn-dark" href="contact.html">Contact</a>
+            </li>
+
+          </ul>
+
+      </div>
+    </nav>
+
+    <h1 class="text-center mt-3 mb-3">Interactive Animation</h1>
+
+    <div class="d-flex justify-content-center mb-5">
+      <div class="green_border_title"></div>
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+          <div class="col-sm">
+            <p class="codepen" data-height="480" data-theme-id="dark" data-default-tab="js,result" data-user="mharrell8" data-slug-hash="JjKBgrN" data-preview="true" style="height: 480px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Overly Complicated Light  Switch Final">
+              <span>See the Pen <a href="https://codepen.io/mharrell8/pen/JjKBgrN">
+                Overly Complicated Light  Switch Final</a> by Matt Harrell (<a href="https://codepen.io/mharrell8">@mharrell8</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+          </div>
+          <div class="col-sm">
+            <h2 class="sub_title">Skills</h2>
+            <ul class="row">
+              <div class="col">
+                <li><p class="skill_items">HTML</p></li>
+                <li><p class="skill_items">CSS</p></li>
+                <li><p class="skill_items">Javascript</p></li>
+              </div>
+              <div class="col">
+                <li><p class="skill_items">JQuery</p></li>
+                <li><p class="skill_items">GreenSock</p></li>
+              </div>
+
+            </ul>
+            <h2 class="sub_title">Description</h2>
+            <p class="des">
+              This is an interactive animation I created that uses counters and conditional
+              statements to create an animation that only occur if certain interactions are completed.
+            </p>
+          </div>
+        </div>
+
+
+
+
+      <div class="row">
+        <div class="container process">
+          <h2 class="text-center mt-5">Process</h3>
+            <div class="d-flex justify-content-center mb-5">
+              <div class="green_border_mobile"></div>
+            </div>
+          <div class="row">
+
+            <div class="col-lg">
+              <h4 class="text-center">Counter</h4>
+              <p class="port_items_des">I created a simple counter that would trigger the red light to change to yellow then if the counter went up again it would make the light turn green. A user could add to the counter by pulling the brown crank.</p>
+              <img src="images/interactive-animation/counter-function.jpg"  type="button"  data-bs-toggle="modal" data-bs-target="#counter" class="crop_proc_item" alt="code of switch counter function">
+
+              <!-- Modal -->
+              <div class="modal fade" id="counter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+
+                  <img src="images/interactive-animation/counter-function.jpg"  class="img-fluid" alt="code of switch counter function">
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg">
+              <h4 class="text-center proc_titles">Switch</h4>
+              <p class="port_items_des">This is the function I wrote for the switch. After the counter hit 2, the switch would become interactive and could turn on/off the light.</p>
+              <img src="images/interactive-animation/switch.jpg" type="button"  data-bs-toggle="modal" data-bs-target="#switch" class="crop_proc_item" alt="code of the switch function">
+              <div class="modal fade" id="switch" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+
+                  <img src="images/interactive-animation/switch.jpg"  class="img-fluid" alt="code of the switch function">
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+
+
+          <div class="row proc_row_sub single-proc-img pb-5">
+            <div class="col-lg">
+              <h4 class="text-center mt-1">Electricity and Light</h4>
+              <p class="port_items_des single-proc-des">This is the function I wrote after all the conditions are met and switch is in the on position would trigger a Motion Path and the light would turn on.</p>
+              <img src="images/interactive-animation/light.jpg" type="button"  data-bs-toggle="modal" data-bs-target="#light" class="img-fluid" alt="code for electricity and light">
+              <div class="modal fade" id="light" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+
+                  <img src="images/interactive-animation/light.jpg"  class="img-fluid" alt="code for electricity and light">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>
