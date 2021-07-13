@@ -158,6 +158,22 @@ body{
   display: none;
 }
 
+
+/* classes for resume */
+.resumeText{
+  size: 1.2rem;
+  margin-bottom:0;
+
+}
+
+.thingsIDid{
+  list-style-type: '- ';
+}
+
+.greenDivider{
+  border-right: .2rem solid #39b54a;
+}
+
 /* start of media queries */
 
 @media only screen and (max-width: 990px) {
